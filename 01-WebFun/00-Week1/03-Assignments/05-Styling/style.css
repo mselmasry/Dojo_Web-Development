@@ -1,10 +1,16 @@
+*
+{
+    margin: 0 0;
+    padding: 0 0;
+}
+
 h1
 {
     color: antiquewhite;
     font-family: monospace;
     background-color: black;
     padding: 10px;
-    height: 30px;
+    margin: 10px;
 }
 
 span
@@ -19,15 +25,20 @@ h2
     color: azure;
     text-align: center;
     padding: 10px;
-    height: 30px;
     font-family: monospace;
     font-style: italic;
+    margin: 10px;
 }
 
 #linkdiv
 {
     background-color: #9FC5F8;
-    height: 30px;
     text-align: right;
     padding: 10px;
+    margin: 10px;
+}
+
+a
+{
+    color: black;
 }
