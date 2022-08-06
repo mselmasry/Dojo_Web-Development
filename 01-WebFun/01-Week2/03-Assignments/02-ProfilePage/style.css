@@ -9,9 +9,8 @@
 {
     width: auto;
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
-    width: 1200px;
+    /* width: 1200px; */
 }
 
 #body
@@ -19,7 +18,7 @@
     display: flex;
     flex-direction: row;
     padding-top: 20px;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -34,7 +33,6 @@
 #r_col
 {
     flex: 1;
-    border: 1px solid black;
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -138,11 +136,13 @@ img#wheel
     justify-content: space-between;
     background-color: #3e3e41;
     border-color: white;
-    width: 100%;
+    width: 90%;
     border-width: 1px;
-    padding: 5px 10px;
     margin: 10px 10px;
     border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 100px;
 }
 
 #nav_l
@@ -151,6 +151,7 @@ img#wheel
     flex-direction: row;
     justify-content: flex-start;
     flex: 8;
+    padding-left: 120px;
 }
 .navtitle
 {
@@ -171,7 +172,7 @@ img#wheel
     font-family: Roboto;
     font-weight: 200;
     flex: 4;
-    padding-right: 550px;
+    padding-right: 15em;
 }
 
 a
@@ -189,13 +190,13 @@ a
 {
     border: 1px;
     border-color: black;
-    width: 80px;
-    height: 25px;
+    height: 35px;
     background-color: lightseagreen;
     color: white;
-    font-size: 0.9em;
+    font-size: 1.1em;
     box-shadow: 4px 4px black;
     flex: 1;
+    font-weight: bold;
 }
 
 /* Edu Styling */
@@ -225,7 +226,7 @@ a
     flex-direction: column;
     gap: 5px;
     flex: 5;
-    border: 1px solid rgb(156, 152, 152);
+    border: 1px solid rgb(194, 191, 191);
     border-radius: 5px;
     padding-top: 20px;
     padding-left: 20px;
@@ -235,13 +236,56 @@ a
 /* Requests Styling */
 #requests
 {
-    border: 1px solid black;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#reqtitle
+{
+    flex: 1;
+    background-color: rgb(60, 59, 59);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+#reqbody
+{
+    flex: 5;
+    border: 1px solid rgb(194, 191, 191);
+    border-radius: 5px;
 }
 
 /* Connections Styling */
 #connections
 {
-    border: 1px solid black;
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+#conntitle
+{
+    flex: 1;
+    background-color: rgb(60, 59, 59);
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+}
+
+#connbody
+{
+    flex: 10;
+    border: 1px solid rgb(194, 191, 191);
+    border-radius: 5px;
 }
