@@ -273,7 +273,7 @@ img#wheel
     height: 50px;
     width: 50px;
     border-radius: 25px;
-    flex: 1;
+    /* flex: 1; */
 }
 
 .name
