@@ -1,13 +1,13 @@
 function remove(element)
 {
-    remove(element);
+    element.remove();
 }
 
 function togglelogin(element)
 {
-    if(element.text == "Login")
-    element.text = "Logout";
+    if(element.innerText == "Login")
+    element.innerText = "Logout";
 
     else
-    element.text = "Login";
+    element.innerText = "Login";
 }
