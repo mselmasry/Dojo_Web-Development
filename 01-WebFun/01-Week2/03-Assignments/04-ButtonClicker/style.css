@@ -1,0 +1,128 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+#container
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#topmenu
+{
+    flex: 1;
+    padding: 20px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#body
+{
+    display: flex;
+    flex-direction: row;
+    flex-direction: 9;
+    padding-top: 20px;
+}
+
+#title
+{
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex: 1;
+}
+
+#search
+{
+    width: 200px;
+    height: 30px;
+    padding-left: 20px;
+    /* margin-right: 200px;
+    margin-left: 100px; */
+    border-radius: 10px;
+    flex: 2;
+}
+
+.navspace
+{
+    flex: 1;
+}
+
+#loginbtn
+{
+    width: 100px;
+    height: 30px;
+    flex: 0.6;
+}
+
+#l_col
+{
+    flex: 2;
+    flex-direction: column;
+}
+
+#r_col
+{
+    flex: 1;
+    flex-direction: column;
+}
+
+.card
+{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.card_l
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card_r
+{
+    display: flex;
+    padding-left: 60px;
+}
+
+.word
+{
+    font-size: 2.5em;
+}
+
+.cat
+{
+    font-style: italic;
+}
+
+.card2
+{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#defbtn
+{
+    background-color:rgb(89, 163, 89);
+    height: 30px;
+    width: 150px;
+    align-self: center;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
