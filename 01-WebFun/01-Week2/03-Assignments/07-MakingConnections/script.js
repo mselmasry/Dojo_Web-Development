@@ -3,7 +3,10 @@ var conncount = 418;
 
 function changeName()
 {
-    document.querySelector("#title").innerText = "John Doe";
+    if(document.getElementById("title").innerText == "John Doe")
+        document.getElementById("title").innerText = "Jane Doe";
+    else
+        document.getElementById("title").innerText = "John Doe";
 }
 
 function accrequest1()
