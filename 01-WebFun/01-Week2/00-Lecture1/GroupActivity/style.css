@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+/* Typography styles */
+h2 {
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+/* Main Page Styles */
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border: solid 1px black;
+    background-color: green;
+}
+
+.main-content
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.navbar {
+    width: 90%;
+    border: solid 1px black;
+    background-color: yellow;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    padding-right: 150px;
+}
+
+.column {
+    border: solid 1px black;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-direction: 1;
+    width: 45%;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    /* padding-bottom: 80px; */
+}
+.box{
+    color: aliceblue;
+    background-color: green;
+    width: 125px;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.boxes
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    margin-top: 50px;
+}
