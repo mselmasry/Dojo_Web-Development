@@ -239,17 +239,35 @@ img#wheel
     flex-direction: column;
 }
 
-#reqtitle
+#reqheader
 {
-    flex: 1;
     background-color: rgb(60, 59, 59);
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 20px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     color: white;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#reqcount
+{
+    flex: 0.5;
+    background-color: gray;
+    padding: 2px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#reqtitle
+{
+    flex: 6;
+    margin-left: 10px;
 }
 
 #reqbody
@@ -289,6 +307,7 @@ img#wheel
     width: 25px;
     border-radius: 12px;
     padding-right: 5px;
+    cursor: pointer;
 }
 
 /* Connections Styling */
@@ -300,17 +319,35 @@ img#wheel
     margin-top: 15px;
 }
 
-#conntitle
+#connheader
 {
-    flex: 1;
+    display: flex;
+    justify-content: space-between;
     background-color: rgb(60, 59, 59);
     padding-bottom: 15px;
     padding-top: 15px;
     padding-left: 20px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     color: white;
     border-radius: 5px;
+    align-items: center;
+}
+
+#conncount
+{
+    flex: 1;
+    background-color: gray;
+    padding: 2px;
+    border-radius: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+#conntitle
+{
+    flex: 4;
+    margin-left: 10px;
 }
 
 #connbody
