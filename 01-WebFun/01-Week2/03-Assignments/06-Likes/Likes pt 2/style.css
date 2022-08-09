@@ -53,8 +53,8 @@
     border: 2px solid black;
     border-radius: 2px;
     padding-bottom: 40px;
-    height: 200px;
-    flex: 0.7;
+    height: 30%;
+    flex: 0.4;
 }
 
 #userimg

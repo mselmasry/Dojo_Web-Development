@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Page - Making Connections</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="topnav">
+            <div id="nav_l">
+                <h1 class="navtitle">Profile</h1>
+                <ul class="navlinks">
+                    <li><a href="#" class="toplink">Home</a></li>
+                    <li><a href="#" class="active toplink">My Profile</a></li>
+                    <li><a href="#" class="toplink">Find Connections</a></li>
+                </ul>
+            </div>
+            <button class="btn">Sign Out</button>
+        </div>
+        <div id="body">
+            <div id="l_col">
+                <div id="userprofile">
+                    <div id="top"></div>
+                    <div id="pic">
+                        <img src="imgs/user-circle.png" alt="" id="user">
+                    </div>
+                    <div id="bottom">
+                        <div id="title"><h2>Jane Doe</h2></div>
+                        <div id="loc"> <img src="imgs/map-marker.png" alt="mapmarker" id="map">Seattle</div>
+                        <div id="desc">
+                            <p>Developer | Engineer | Problem Solver</p>
+                            <p>Master of shadows and the Internet!</p>
+                        </div>
+                        <div id="edit">
+                            <img src="imgs/gear.png" alt="" id="wheel"><a href="#" onclick="changeName()">edit profile</a>
+                        </div>
+                    </div>
+                </div>
+                <div id="edu">
+                    <div id="edutitle">
+                        Education
+                    </div>
+                    <div id="edubody">
+                        <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                        Dec 2019 - Mar 2020 <br/>
+                        <strong>Triple black belt in Python, MERN, and C#</strong>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, a placeat ipsa, facilis corporis nam aliquam tempore veniam atque quidem expedita, vitae repellendus aperiam illum esse distinctio consequuntur? Quidem, sit?
+                        <br/>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, aut iste. Rerum sapiente at eligendi placeat vel modi nostrum facilis hic magnam numquam ipsa iure voluptatibus, in culpa aspernatur quo.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ab voluptate reiciendis dolore eos eveniet vel veniam unde nihil! Deleniti repudiandae beatae vero cumque vitae rerum atque, vel nostrum accusantium.
+                    </div>
+                </div>
+            </div>
+            <div id="r_col">
+                <div id="requests">
+                    <div id="reqtitle">Connection Requests</div>
+                    <div id="reqbody">
+                        <div class="req">
+                            <img src="imgs/todd-s.jpg" class="profpic">
+                            <div class="name">Todd E</div>
+                            <img src="imgs/accept-circle.png" class="accrej">
+                            <img src="imgs/close-circle.png" class="accrej">
+                        </div>
+                        <div class="req">
+                            <img src="imgs/phil-s.jpg" class="profpic">
+                            <div class="name">Phill K</div>
+                            <img src="imgs/accept-circle.png" class="accrej">
+                            <img src="imgs/close-circle.png" class="accrej">
+                        </div>
+                    </div>
+                </div>
+                <div id="connections">
+                    <div id="conntitle">Your Connections</div>
+                    <div id="connbody">
+                        <div class="req">
+                            <img src="imgs/adrien-s.jpg" class="profpic">
+                            <div class="name">Adrien D</div>
+                        </div>
+                        <div class="req">
+                            <img src="imgs/anne-s.jpg" class="profpic">
+                            <div class="name">Anne J</div>
+                        </div>
+                        <div class="req">
+                            <img src="imgs/alayne-s.jpg" class="profpic">
+                            <div class="name">Alayne T</div>
+                        </div>
+                        <div class="req">
+                            <img src="imgs/arry-s.jpg" class="profpic">
+                            <div class="name">Arry Y</div>
+                        </div>
+                    </div>
+                    <div id="connfooter">
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
