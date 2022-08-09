@@ -39,6 +39,8 @@
 #content
 {
     display: flex;
+    align-items: top;
+    /* padding-top: 10px; */
 }
 
 #col-l
@@ -46,12 +48,13 @@
     display: flex;
     flex-direction: column;
     padding: 15px;
-    /* justify-content: center; */
     align-items: center;
     gap: 30px;
     border: 2px solid black;
     border-radius: 2px;
     padding-bottom: 40px;
+    height: 200px;
+    flex: 0.7;
 }
 
 #userimg
@@ -65,4 +68,58 @@
 }
 
 #col-r
-{}
+{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 30px;
+    flex: 2.5;
+}
+
+.card
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+.row
+{
+    flex-direction: row;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc
+{
+    display: inline-block;
+}
+
+.user
+{
+    font-size: 1.5em;
+}
+
+.likes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 60px;
+}
+
+.likebtn
+{
+    background-color: rgb(242,202,78);
+    width: 70px;
+    height: 30px;
+    box-shadow: 2px 2px 1px black;
+    font-weight: bold;
+    font-size: 1em;
+}
