@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Dojo Weather</title>
+    </head>
+        <div id="wrapper">
+            <div id="header">
+                <div id="title">DojoWeather</div>
+                <ul id="navlinks">
+                    <li class="loc">Burbank</li>
+                    <li class="loc">Chicago</li>
+                    <li class="loc">Dallas</li>
+                </ul>
+            </div>
+            <div id="body">
+                <div id="top">
+                    <div id="city">San Jose</div>
+                    <div id="unitdiv">
+                        <label for="unit">show temprature in </label>
+                        <select name="unit" id="unit">
+                            <option value="F">F&deg;</option>
+                            <option value="C">C&deg;</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="main">
+                    <div class="weathercard">
+                        <div class="day">Today</div>
+                        <div class="condition">
+                            <img src="imgs/some_rain.png" alt="Some Rain" class="condimg">
+                        </div>
+                        <div class="desc">some rain</div>
+                        <div class="temp">
+                            <div class="temph">24&deg;</div>
+                            <div class="templ">18&deg;</div>
+                        </div>
+                    </div>
+                    <div class="weathercard">
+                        <div class="day">Tomorrow</div>
+                        <div class="condition">
+                            <img src="imgs/some_sun.png" alt="Some Sun" class="condimg">
+                        </div>
+                        <div class="desc">some sun</div>
+                        <div class="temp">
+                            <div class="temph">27&deg;</div>
+                            <div class="templ">19&deg;</div>
+                        </div>
+                    </div>
+                    <div class="weathercard">
+                        <div class="day">Friday</div>
+                        <div class="condition">
+                            <img src="imgs/some_clouds.png" alt="Some Clouds" class="condimg">
+                        </div>
+                        <div class="desc">some clouds</div>
+                        <div class="temp">
+                            <div class="temph">21&deg;</div>
+                            <div class="templ">16&deg;</div>
+                        </div>
+                    </div>
+                    <div class="weathercard">
+                        <div class="day">Saturday</div>
+                        <div class="condition">
+                            <img src="imgs/some_sun.png" alt="Some Sun" class="condimg">
+                        </div>
+                        <div class="desc">some sun</div>
+                        <div class="temp">
+                            <div class="temph">26&deg;</div>
+                            <div class="templ">21&deg;</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="cookie">
+                    <img src="imgs/cookie.png" alt="" id="cookieimg">
+                    <div id="cookietext">
+                        <h2>Stop! Cookie time</h2>
+                        <p>We use cookies (sadly not the edible ones) to personalize content and ads, to prodive social media features and to analyse traffic.</p> 
+                        <a href="#">Read more</a>
+                    </div>
+                    <button id="cookiebtn">Accept</button>
+                </div>
+            </div>
+        </div>
+
+    <body>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
