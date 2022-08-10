@@ -11,6 +11,9 @@
     display: flex;
     flex-direction: column;
     /* width: 1200px; */
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
 }
 
 #body
@@ -19,7 +22,7 @@
     flex-direction: row;
     padding-top: 20px;
     width: 80%;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 #l_col
@@ -158,21 +161,21 @@ img#wheel
     color: rgb(255, 255, 255);
     font-family: Roboto;
     font-weight: 300;
-    flex: 1;
+    flex: 0.5;
     padding-left: 40px;
-    padding-right: 20px;
 }
 
 .navlinks
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+    gap: 20px;
     align-items: center;
     color: #3e3e41;
     font-family: Roboto;
     font-weight: 200;
     flex: 4;
-    padding-right: 15em;
+    padding-left: 20px;
 }
 
 .toplink
@@ -193,7 +196,7 @@ img#wheel
     height: 35px;
     background-color: lightseagreen;
     color: white;
-    font-size: 1.1em;
+    font-size: 1em;
     box-shadow: 4px 4px black;
     flex: 1;
     font-weight: bold;
