@@ -12,9 +12,9 @@
             <div id="header">
                 <div id="title">DojoWeather</div>
                 <ul id="navlinks">
-                    <li class="loc">Burbank</li>
-                    <li class="loc">Chicago</li>
-                    <li class="loc">Dallas</li>
+                    <li class="loc" onclick="report()">Burbank</li>
+                    <li class="loc" onclick="report()">Chicago</li>
+                    <li class="loc" onclick="report()">Dallas</li>
                 </ul>
             </div>
             <div id="body">
@@ -22,9 +22,9 @@
                     <div id="city">San Jose</div>
                     <div id="unitdiv">
                         <label for="unit">show temprature in </label>
-                        <select name="unit" id="unit">
+                        <select name="unit" id="unit" onchange="setunit()">
                             <option value="F">F&deg;</option>
-                            <option value="C">C&deg;</option>
+                            <option value="C" selected>C&deg;</option>
                         </select>
                     </div>
                 </div>
@@ -35,9 +35,9 @@
                             <img src="imgs/some_rain.png" alt="Some Rain" class="condimg">
                         </div>
                         <div class="desc">some rain</div>
-                        <div class="temp">
-                            <div class="temph">24&deg;</div>
-                            <div class="templ">18&deg;</div>
+                        <div class="temp" id="temp-today">
+                            <div class="high"><span class="temph">24</span>&deg;</div>
+                            <div class="low"><span class="templ">18</span>&deg;</div>
                         </div>
                     </div>
                     <div class="weathercard">
@@ -46,9 +46,9 @@
                             <img src="imgs/some_sun.png" alt="Some Sun" class="condimg">
                         </div>
                         <div class="desc">some sun</div>
-                        <div class="temp">
-                            <div class="temph">27&deg;</div>
-                            <div class="templ">19&deg;</div>
+                        <div class="temp" id="temp-tom">
+                            <div class="high"><span class="temph">27</span>&deg;</div>
+                            <div class="low"><span class="templ">19</span>&deg;</div>
                         </div>
                     </div>
                     <div class="weathercard">
@@ -57,9 +57,9 @@
                             <img src="imgs/some_clouds.png" alt="Some Clouds" class="condimg">
                         </div>
                         <div class="desc">some clouds</div>
-                        <div class="temp">
-                            <div class="temph">21&deg;</div>
-                            <div class="templ">16&deg;</div>
+                        <div class="temp" id="temp-fri">
+                            <div class="high"><span class="temph">21</span>&deg;</div>
+                            <div class="low"><span class="templ">16</span>&deg;</div>
                         </div>
                     </div>
                     <div class="weathercard">
@@ -68,9 +68,9 @@
                             <img src="imgs/some_sun.png" alt="Some Sun" class="condimg">
                         </div>
                         <div class="desc">some sun</div>
-                        <div class="temp">
-                            <div class="temph">26&deg;</div>
-                            <div class="templ">21&deg;</div>
+                        <div class="temp" id="temp-sat">
+                            <div class="high"><span class="temph">26</span>&deg;</div>
+                            <div class="low"><span class="templ">21</span>&deg;</div>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                         <p>We use cookies (sadly not the edible ones) to personalize content and ads, to prodive social media features and to analyse traffic.</p> 
                         <a href="#">Read more</a>
                     </div>
-                    <button id="cookiebtn">Accept</button>
+                    <button id="cookiebtn" onclick="acceptCookies()">I Accept</button>
                 </div>
             </div>
         </div>

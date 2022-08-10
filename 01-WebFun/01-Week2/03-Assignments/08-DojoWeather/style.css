@@ -35,6 +35,7 @@
     list-style: none;
     padding-right: 150px;
     color: whitesmoke;
+    cursor: pointer;
 }
 
 #body
@@ -121,18 +122,18 @@
     gap: 80px;
 }
 
-.temph, .templ
+.temph, .templ, .high, .low
 {
     font-weight: bold;
 }
 
-.temph
+.temph, .high
 {
     color: red;
     flex: 1;
 }
 
-.templ
+.templ, .low
 {
     color: blue;
     flex: 1;
