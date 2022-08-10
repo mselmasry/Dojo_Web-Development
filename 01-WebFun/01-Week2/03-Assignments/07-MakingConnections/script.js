@@ -5,6 +5,8 @@ function changeName()
 {
     if(document.getElementById("title").innerText == "John Doe")
         document.getElementById("title").innerText = "Jane Doe";
+    else if(document.getElementById("title").innerText == "Jane Doe")
+        document.getElementById("title").innerText = "Ninja Coder";
     else
         document.getElementById("title").innerText = "John Doe";
 }
