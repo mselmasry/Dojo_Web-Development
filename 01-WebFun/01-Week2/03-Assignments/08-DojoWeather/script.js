@@ -1,8 +1,3 @@
-function report()
-{
-    alert("Loading weather report ...");
-}
-
 function setTempC()
 {
     //Today
