@@ -54,7 +54,8 @@
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #city
@@ -77,20 +78,22 @@
 #main
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-top: 15px;
-    gap: 15px;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
 .weathercard
 {
     display: flex;
     background-color: rgb(238, 238,238);
-    flex: 1;
+    /* flex: 1; */
     padding: 15px;
     flex-direction: column;
     align-items: center;
     border-radius: 5px;
+    width: 200px;
 }
 
 .day
@@ -168,8 +171,9 @@
 #cookiebtn
 {
     flex: 1.5;
-    height: 30px;
+    height: 20%;
     background-color: rgb(159,196,248);
     border: 2px solid black;
     box-shadow: 2px 2px 1px;
+    padding: 5px;
 }
